@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="1.6" type="template" method="upgrade">
+	<name>Awaken_LernVid.com</name>
+	<creationDate>Mar 2011</creationDate>
+	<author>Juergen Koller</author>
+	<copyright>Copyright LernVid.com</copyright>
+	<authorEmail>webmaster@lernvid.com</authorEmail>
+	<authorUrl>http://www.lernvid.com</authorUrl>
+	<version>1.0</version>
+	<description>
+		&lt;h1&gt;The AWANKEN Joomla Template for Joomla 1.6&lt;/h1&gt;
+		&lt;h2&gt;Version: 1.0&lt;/h2&gt;
+		&lt;h2&gt;&lt;a href="http://www.lernvid.com" target="_blank"&gt;Authors Homepage&lt;/a&gt;&lt;br /&gt;
+		&lt;a href="http://www.lernvid.com/lizenz" target="_blank"&gt;Licence Information&lt;/a&gt;&lt;br /&gt;&lt;/h2&gt;
+		&lt;img src="../templates/awaken_lernvid.com/template_thumbnail.png" style="float:left; padding:10px 10px 10px 0;" /&gt;
+		&lt;hr style="clear:both" /&gt;
+		&lt;h1&gt;Color variations&lt;/h1&gt;
+		&lt;img src="../templates/awaken_lernvid.com/images/template_thumbnail_pg.png" style="float:left; padding:10;" /&gt;
+		&lt;img src="../templates/awaken_lernvid.com/images/template_thumbnail_rg.png" style="float:left; padding:10;" /&gt;
+		&lt;img src="../templates/awaken_lernvid.com/images/template_thumbnail_yb.png" style="float:left; padding:10;" /&gt;
+		&lt;img src="../templates/awaken_lernvid.com/images/template_thumbnail_gray.png" style="float:left; padding:10;" /&gt;
+	</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>index.html</filename>
+		<filename>css/index.html</filename>
+		<filename>images/index.html</filename>
+		<filename>template_thumbnail.png</filename>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field type="spacer" label="&lt;h1&gt;Layout&lt;/h1&gt;" />
+				<field type="spacer" label="&lt;script src='../templates/awaken_lernvid.com/js/jscolor/jscolor.js' type='text/javascript'&gt;&lt;/script&gt;" />
+				<field name="leftcolWidth" type="text" default="20" label="Left column WIDTH in %" description="Select a width in %. The Columns (left column, middle column, right column) will adjust themself if you change the %'s here."></field>
+				<field name="rightcolWidth" type="text" default="20" label="Right column WIDTH in %" description="Select a width in %. The Columns (left column, middle column, right column) will adjust themself if you change the %'s here."></field>
+				<field type="spacer" label="&lt;h1&gt;Colors&lt;/h1&gt;" />
+				<field name="colorVariation" type="radio" default="pinkgreen" label="Color Variation" description="Choose your color variation">
+					<option value="pinkgreen">pink and green</option>
+					<option value="redgreen">red and green</option>
+					<option value="yellowblue">yellow and blue</option>
+					<option value="gray">gray</option>
+				</field>
+				<field type="spacer" label="&lt;h1&gt;Logos and Slogan&lt;/h1&gt;" />
+				<field name="showimgLogo" type="radio" default="1" label="Show Image Logo" description="Here you can choose if an Image Logo should be shown in the header or not.">
+				  <option value="1">Yes</option>
+				  <option value="0">No</option>
+				</field>
+				<field name="imgLogo" type="imagelist" default="logo-transparent.png" label="Select an image" description="Select a Logo from images/stories folder" directory="/templates/awaken_lernvid.com/images/logo" exclude="" stripext="" />
+				<field type="spacer" default=" " />
+				<field name="showtextLogo" type="radio" default="0" label="Show Text Logo" description="Here you can choose if the Text Logo should be shown in the header or not.">
+				  <option value="1">Yes</option>
+				  <option value="0">No</option>
+				</field>
+				<field name="textLogo" type="textarea" default="Awaken!" label="Text Logo" description="Enter a Text that will be shown in the Text Logo place in the header" rows="1" cols="40"></field>
+				<field name="logoColor" class="color" type="text" default="FA01AF" label="Logo color" description="default: FA01AF = purple"></field>
+				<field type="spacer" default=" " />
+				<field name="showSlogan" type="radio" default="0" label="Show Slogan" description="Here you can choose if the Slogan should be shown in the header or not.">
+				  <option value="1">Yes</option>
+				  <option value="0">No</option>
+				</field>
+				<field name="slogan" type="textarea" default="my slogan goes here..." label="Slogan" description="Enter a Text that will be shown in the Slogan place in the header" rows="1" cols="40"></field>
+				<field name="sloganColor" class="color" type="text" default="000000" label="Slogan color" description="default: 000000 = black"></field>
+				<field type="spacer" label="&lt;h1&gt;Other&lt;/h1&gt;" />
+		     	<field name="useJavascript" type="radio" default="1" label="Use Javascript?" description="Here you can decide if you want to use the Javascript Effects in the Template or not.">
+			      <option value="0">No</option>
+			      <option value="1">Yes</option>
+			    </field>
+			</fieldset>
+		</fields>
+	</config>
+	<positions>
+		<position>top</position>
+		<position>debug</position>
+		<position>position-0</position>
+		<position>position-1</position>
+		<position>position-2</position>
+		<position>position-7</position>
+		<position>position-8</position>
+		<position>header</position>
+		<position>footer</position>
+		<position>slider</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user7</position>
+	</positions>
+</extension>

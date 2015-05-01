@@ -1,0 +1,74 @@
+﻿@charset "utf-8";
+/*---------------------------------------------------
+Desidgned by Juergen Koller
+Designers Home: http://www.LernVid.com
+---------------------------------------------------*/
+
+#user5 div.moduletable h3, #user6 div.moduletable h3, #user7 div.moduletable h3 {
+	background-image: url(../images/gray/user_h3.gif);
+	background-repeat:no-repeat;
+	background-position: left top;
+}
+#top div.moduletable h3, #user1 div.moduletable h3, #user2 div.moduletable h3 {
+	background-image: url(../images/gray/user_h3.gif);
+	background-repeat:no-repeat;
+	background-position: left top;
+}
+#footer {
+	background-image:url('../images/gray/footer.jpg');
+	background-position: center bottom;	
+	background-repeat: repeat-x;
+}
+#mirror {
+	background-image:url('../images/gray/mirror.jpg');
+	background-position: center top;
+	background-repeat:no-repeat;
+}
+#search_inner .inputbox:hover {
+	color: #aaa;
+}
+#breadcrumbs {
+	color:#aaa;
+}
+#breadcrumbs a {
+	color: #aaa;
+}
+.module_menu ul.menu li a:hover, .module_menu ul.menu li a:active, .module_menu ul.menu li a:focus {
+	color: #aaa;
+}
+#navigation ul.menu li a {
+	color:#aaa;
+}
+a, a:link, a:visited, a:active, a:focus {
+	color: #777;
+}
+.button:hover {
+	color: #999;
+}
+.sitetitle {
+	color: #999;
+}
+.module_menu ul.menu li a:first-letter {
+	color: #999;
+}
+#user5 div.moduletable h3, #user6 div.moduletable h3, #user7 div.moduletable h3 {
+	color: #333;
+}
+#top div.moduletable h3, #user1 div.moduletable h3, #user2 div.moduletable h3 {
+	color: #333;
+}
+table.module th, .module_text h3 {
+	color: #333;
+}
+div.module h3{
+	color: #333;
+}
+#sidebar_left div.module h3, #sidebar_right div.module h3 {
+	color: #333;
+}
+.contentheading {
+	color: #333;
+}
+.contentheading a {
+	color: #333;
+}

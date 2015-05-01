@@ -1,0 +1,74 @@
+﻿@charset "utf-8";
+/*---------------------------------------------------
+Desidgned by Juergen Koller
+Designers Home: http://www.LernVid.com
+---------------------------------------------------*/
+
+#user5 div.moduletable h3, #user6 div.moduletable h3, #user7 div.moduletable h3 {
+	background-image: url(../images/yellowblue/user_h3.gif);
+	background-repeat:no-repeat;
+	background-position: left top;
+}
+#top div.moduletable h3, #user1 div.moduletable h3, #user2 div.moduletable h3 {
+	background-image: url(../images/yellowblue/user_h3.gif);
+	background-repeat:no-repeat;
+	background-position: left top;
+}
+#footer {
+	background-image:url('../images/yellowblue/footer.jpg');
+	background-position: center bottom;	
+	background-repeat: repeat-x;
+}
+#mirror {
+	background-image:url('../images/yellowblue/mirror.jpg');
+	background-position: center top;
+	background-repeat:no-repeat;
+}
+#search_inner .inputbox:hover {
+	color: #4671D5;
+}
+#breadcrumbs {
+	color:#4671D5;
+}
+#breadcrumbs a {
+	color: #4671D5;
+}
+.module_menu ul.menu li a:hover, .module_menu ul.menu li a:active, .module_menu ul.menu li a:focus {
+	color: #4671D5;
+}
+#navigation ul.menu li a {
+	color:#4671D5;
+}
+a, a:link, a:visited, a:active, a:focus {
+	color: #1240AB;
+}
+.button:hover {
+	color: #1240AB;
+}
+.sitetitle {
+	color: #1240AB;
+}
+.module_menu ul.menu li a:first-letter {
+	color: #FFAA00;
+}
+#user5 div.moduletable h3, #user6 div.moduletable h3, #user7 div.moduletable h3 {
+	color: #FF9400;
+}
+#top div.moduletable h3, #user1 div.moduletable h3, #user2 div.moduletable h3 {
+	color: #FF9400;
+}
+table.module th, .module_text h3 {
+	color: #FF9400;
+}
+div.module h3{
+	color: #FF9400;
+}
+#sidebar_left div.module h3, #sidebar_right div.module h3 {
+	color: #FF9400;
+}
+.contentheading {
+	color: #FF9400;
+}
+.contentheading a {
+	color: #FF9400;
+}
